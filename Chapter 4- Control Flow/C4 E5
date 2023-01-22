@@ -1,0 +1,11 @@
+fruit = ['Apple', 'Kiwi', 'Strawberry']
+
+if "Apple" in fruit: print ("Yes, Apple.")
+
+if "Kiwi" in fruit: print ("Yes, Kiwi.")
+
+if "Orange" in fruit: print ("Yes, Orange.")
+
+if "Mango" in fruit: print ("No, Mango.")
+
+if "Pear" in fruit: print ("No, Pear.")
