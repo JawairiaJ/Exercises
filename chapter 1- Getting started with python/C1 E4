@@ -1,0 +1,4 @@
+x = "Red"
+y = "Blue"
+z = "Pink"
+print (f"I like colours:\n\t{x}, {y} and {z}.") #combining the variables using f string.
