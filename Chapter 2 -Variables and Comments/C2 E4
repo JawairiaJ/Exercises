@@ -1,0 +1,3 @@
+Num = 13
+x = f"My favourite number is: {Num}"
+print (x)

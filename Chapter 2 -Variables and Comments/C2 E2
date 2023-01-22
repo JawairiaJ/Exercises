@@ -1,0 +1,3 @@
+a = ('Pinterest once said, "I am sorry I am late, ')
+b = ('I didnt wanna come."')
+print (a + b) #prints both variables together.

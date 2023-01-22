@@ -1,0 +1,6 @@
+total_pounds = 50
+USB = 6
+x = int(total_pounds / USB)
+print (x)
+
+

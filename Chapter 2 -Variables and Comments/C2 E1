@@ -1,0 +1,5 @@
+var1 = "Hello World!" #setting a variable
+print (var1)
+
+var1 = "Bye World!"
+print (var1) #since we used print for both, both variables will be displayed.

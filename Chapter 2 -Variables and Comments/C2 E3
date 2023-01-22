@@ -1,0 +1,4 @@
+name = "      \n Jawairia Javed\t     "
+print(name.lstrip())#returns a new string with trailing whitespace removed from left side
+print(name.rstrip()) #returns a new string with trailing whitespace removed from right side
+print(name.strip()) #removes any tab space
