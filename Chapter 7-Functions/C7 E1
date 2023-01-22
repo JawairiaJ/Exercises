@@ -1,0 +1,2 @@
+def display_message(): print ("I am currently learning more about Loops and Functions.")
+display_message()
