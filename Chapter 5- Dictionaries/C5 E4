@@ -1,0 +1,8 @@
+river = {
+    'nile': 'egypt',
+    'indus': 'pakistan',
+    'murray': 'austraila',
+}
+
+for x, y in river.items():
+    print ('The ' + x.title() + ' runs through ' + y.title() + '.')

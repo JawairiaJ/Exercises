@@ -1,0 +1,33 @@
+pets = []
+
+pet = {
+    'animal type': 'cat',
+    'name': 'meow',
+    'owner': 'JJ',
+    'weight': 22,
+    'eats': 'food',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'Dog',
+    'name': 'woof',
+    'owner': 'Ray',
+    'weight': 10,
+    'eats': 'food',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'Parrot',
+    'name': 'chirp',
+    'owner': 'May',
+    'weight': 22,
+    'eats': 'food',
+}
+pets.append(pet)
+
+for pet in pets:
+    print("\nInformation about " + pet['name'].title() + ":")
+    for x, y in pet.items():
+        print("\t" + x + ": " + str(y))

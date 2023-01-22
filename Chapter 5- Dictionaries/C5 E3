@@ -1,0 +1,15 @@
+glossary = {
+    'string': 'Series of characters.',
+    'boolean': 'An expression used for creating statements that are either TRUE or FALSE.',
+    'loop': 'Used for iterating over a sequence.',
+    'Variables':'Variables are containers for storing data values.',
+    'Dictionary': "Dictionaries are used to store data values in key value pairs.", 
+    'float': 'A numerical value with a decimal component.',
+    'Tuple': 'Used to store multiple items in a single variable.',
+    'Indentation':'Indentation refers to the spaces at the beginning of a code line.',
+    'Comments':'Comments can be used to explain Python code.',
+    'Functions':'A function is a block of code which only runs when it is called.',
+}
+
+for word, definition in glossary.items():
+    print("\n" + word.title() + ": " + definition)

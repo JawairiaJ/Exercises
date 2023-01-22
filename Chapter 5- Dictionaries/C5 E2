@@ -1,0 +1,22 @@
+glossary = {
+    'string': 'Series of characters.',
+    'boolean': 'An expression used for creating statements that are either TRUE or FALSE.',
+    'loop': 'Used for iterating over a sequence.',
+    'Variables':'Variables are containers for storing data values.',
+    'Dictionary': "Dictionaries are used to store data values in key value pairs.", 
+}
+
+x = 'string'
+print("\n" + x.title() + ": " + glossary[x])
+
+x = 'boolean'
+print("\n" + x.title() + ": " + glossary[x])
+
+x = 'loop'
+print("\n" + x.title() + ": " + glossary[x])
+
+x = 'Variables'
+print("\n" + x.title() + ": " + glossary[x])
+
+x = 'Dictionary'
+print("\n" + x.title() + ": " + glossary[x])
