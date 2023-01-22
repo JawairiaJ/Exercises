@@ -1,0 +1,4 @@
+names = ["Jiya", "Ahmed", "Mohammed"]
+print("Hey, " + names[0] + ".")
+print("Hi, " + names[1]+ "!")
+print("Hello!, " + names[2]+ ".")

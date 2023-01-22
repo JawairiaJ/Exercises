@@ -1,0 +1,4 @@
+mode = ["motorcycle", "car", "yacht"]
+print("I would love to own a Toyoto",(mode[0])+".")
+print("I would love to own a Mercedes",(mode[1])+".")
+print("I would love to own a Private",(mode[2])+".")

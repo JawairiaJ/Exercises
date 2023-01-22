@@ -1,0 +1,14 @@
+guests = ["Mohammed", "Taha", "Ahmed"]
+print (guests[0] + ", you are invited to dinner!")
+print (guests[1] + ", you are invited to dinner!")
+print (guests[2] + ", you are invited to dinner!")
+
+print ("\n" + guests[1] + " won't be attending the dinner.")
+
+guests.pop(1)
+
+guests.insert(1, "Jawairia")
+
+print ("\n" + guests[0] + ", you are invited to dinner!")
+print (guests[1] + ", you are invited to dinner!")
+print (guests[2] + ", you are invited to dinner!")
