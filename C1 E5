@@ -1,0 +1,4 @@
+user_radius = float(input("Please enter radius of the circle: "))#asks user to input a float number.
+Pi = 3.14
+area_of_circle = (Pi * (user_radius **  2)) #formula for area of circle.
+print (f"\nArea of Circle: {area_of_circle}")

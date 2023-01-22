@@ -1,0 +1,6 @@
+from datetime import date #using datetime module.
+
+today = date.today() #built in function
+
+print("Today's date:")
+print(today)
